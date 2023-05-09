@@ -12,12 +12,14 @@ for i in range (0, 12):
 #percorrendo linhas da matriz
 soma = 0
 numEl = (12*12 - 2*12) / 4
-for k in range (1, 6):
-    for j in range (0, k):
-        soma += mat[k][j]     
-for m in range (6, 11):
-    for o in range (0, 11 -m):
-        soma += mat[m][o]
+#triângulo superior esquerdo
+for j in range (1, 6):
+    for i in range (0, j):
+        soma += mat[i][j]
+#triângulo superior direito
+for j in range (6, 11):
+    for i in range (0, 11-j):
+        soma += mat[i][j]
 
 #escolhendo operação que será realizada
 if op == 'S':
