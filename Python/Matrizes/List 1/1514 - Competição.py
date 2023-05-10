@@ -1,8 +1,8 @@
 while True:
     total = 0
-    n, m = input().split()
-    n = int(n)
-    m = int(m)
+    lista = input().split()
+    n = int(lista[0])
+    m = int(lista[1])
     if n == m == 0:
         break
     #criando a matriz
@@ -60,11 +60,3 @@ while True:
             break    
     #imprimindo matriz como base
     print(total)
-'''
-    for i in range (0, m):
-        for j in range (0, n):
-            print(' {}'.format(mat[i][j]), end='')
-            print()
-        print()
-'''
-
