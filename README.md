@@ -8,3 +8,5 @@ Esse projeto é uma coletânia de resoluções do URI, as quais foram realizadas
 
 <h2>Objetivos</h2>
 Os arquivos aqui presentes possuem o propósito de auxiliar estudantes de programação, sendo uma ferramenta na busca de soluções e na análise de problemas de algoritmos.
+
+<img src="/Info/bee-crowd-img.png">
