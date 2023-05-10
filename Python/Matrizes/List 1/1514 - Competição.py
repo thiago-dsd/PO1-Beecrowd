@@ -1,62 +1,50 @@
+solProb = [None] * 101
 while True:
-    total = 0
-    lista = input().split()
-    n = int(lista[0])
-    m = int(lista[1])
-    if n == m == 0:
+    n, m = input().split()
+    n = int(n)
+    m = int(m)
+    
+    if n == 0 and m == 0:
         break
-    #criando a matriz
-    mat = [None] * m
-    for k in range (0, m):
-        mat[k] = input().split()
-    #condições
-    #condi 1
-    var = 0
-    total += 1
-    for i in range (0, n):
-        var = 0
-        for j in range (0, m):
-            mat[i][j] = int(mat[i][j])
-            if mat[i][j] == 1:
-                var += 1
-        if var == m:
-            total -= 1
-            break
-    #condi 2
-    var = 0
-    total += 1
-    for j in range (0, m):
-        var = 0
-        for i in range (0, n):
-            mat[i][j] = int(mat[i][j])
-            if mat[i][j] == 1:
-                var += 1
-        if var == 0:
-            total -= 1
-            break
-    #condi 3
-    var = 0
-    total += 1
-    for j in range (0, m):
-        var = 0
-        for i in range (0, n):
-            mat[i][j] = int(mat[i][j])
-            if mat[i][j] == 1:
-                var += 1
-        if var == n:
-            total -= 1
-            break
-    #condi 4
-    var = 0
-    total += 1
-    for i in range (0, n):
-        var = 0
-        for j in range (0, m):
-            mat[i][j] = int(mat[i][j])
-            if mat[i][j] == 1:
-                var += 1
-        if var == 0:
-            total -= 1
-            break    
-    #imprimindo matriz como base
-    print(total)
+        
+    for i in range(m):
+        solProb[i] = 0
+        
+    ngnResolveuTodos = True
+    aoMenosUmProblema = True
+    todoProblemaResolvido = True
+    naoResolvidoPorTodos = True
+    
+    for i in range(n):
+        solucoes = input().split()
+        
+        qtdeResolvidosTime = 0
+        for j in range(m):
+            if solucoes[j] == '1':
+                qtdeResolvidosTime += 1 
+                solProb[j] += 1
+        
+        if qtdeResolvidosTime == m: 
+            ngnResolveuTodos = False
+            
+        if qtdeResolvidosTime == 0:
+            aoMenosUmProblema = False
+    
+
+    for i in range(m):
+        if solProb[i] == 0:
+            todoProblemaResolvido = False
+        if solProb[i] == n:
+            naoResolvidoPorTodos = False
+    
+    critSatis = 0
+    if ngnResolveuTodos:
+        critSatis += 1
+    if aoMenosUmProblema:
+        critSatis += 1
+    if todoProblemaResolvido:
+        critSatis += 1
+    if naoResolvidoPorTodos:
+        critSatis += 1
+    
+    print(critSatis)
