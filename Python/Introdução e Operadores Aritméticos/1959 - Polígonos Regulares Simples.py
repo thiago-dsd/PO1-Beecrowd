@@ -1,0 +1,5 @@
+dados = str(input())
+N1, L1 = dados.split()
+N = float(N1)
+L = float(L1)
+print('{:.0f}'.format(N*L))
