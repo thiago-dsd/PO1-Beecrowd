@@ -5,4 +5,6 @@ letras = {
     'V': 22, 'W': 23, 'X': 24, 'Y': 25, 'Z': 26
 }
 letraAtual = input()
-print(letras[letraAtual])
+print(letras[letraAtual]
+
+#iaosnaosinf
