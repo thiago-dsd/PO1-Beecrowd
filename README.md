@@ -1,4 +1,4 @@
-<h1>URI Project</h1>
+<h1>PO1-Beecrowd</h1>
 
 <h2>What is it?</h2>
 The <i>URI Online Judge (<a>https://www.beecrowd.com.br/judge/en/login</a>)</i> is a platform dedicated to the study of algorithms and programming languages , achieving this purpose through code development challenges.
