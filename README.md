@@ -1,12 +1,12 @@
-<h1>Projeto URI</h1>
+<h1>URI Project</h1>
 
-<h2>O que é?</h2>
-O <i>URI Online Judge (<a>https://www.beecrowd.com.br/judge/en/login</a>)</i> é uma plataforma voltada para o estudo de algoritmos e linguagens de programação, alcançando esse propósito por meio de desafios de desenvolimento de códigos.
+<h2>What is it?</h2>
+The <i>URI Online Judge (<a>https://www.beecrowd.com.br/judge/en/login</a>)</i> is a platform dedicated to the study of algorithms and programming languages , achieving this purpose through code development challenges.
 
-<h2>Sobre o projeto!</h2>
-Esse projeto é uma coletânia de resoluções do URI, as quais foram realizadas sobre a tutela do professor Maicon Zatelli <i>(<a>https://www.escavador.com/sobre/7020979/maicon-rafael-zatelli</a>)</i>, tutor do grupo de programação competitiva da UFSC <i>(Universidade Federal de Santa Catarina)</i>.
+<h2>About the project!</h2>
+This project is a collection of URI resolutions, which were carried out under the tutelage of Professor Maicon Zatelli <i>(<a>https://www.escavador.com/sobre/7020979/maicon-rafael-zatelli</a >)</i>, tutor of the competitive programming group at UFSC <i>(Federal University of Santa Catarina)</i>.
 
-<h2>Objetivos</h2>
-Os arquivos aqui presentes possuem o propósito de auxiliar estudantes de programação, sendo uma ferramenta na busca de soluções e na análise de problemas de algoritmos.
+<h2>Goals</h2>
+The files presented here have the purpose of helping programming students, being a tool in the search for solutions and in the analysis of algorithm problems.
 
 <img src="/Info/bee-crowd-img.png">
