@@ -1,5 +1,0 @@
-N = int(input())
-H = float(input())
-R = float(input())
-print('NUMBER = {}'.format(N))
-print('SALARY = U$ {:.2f}'.format(H*R))
