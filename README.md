@@ -9,4 +9,5 @@ This project is a collection of URI resolutions, which were carried out under th
 <h2>🚀 Goals</h2>
 The files presented here have the purpose of helping programming students, being a tool in the search for solutions and in the analysis of algorithm problems.
 
+
 <img src="/info/bee-crowd-img.png">
